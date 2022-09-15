@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rock-Paper-Scissors</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="rps.js" defer></script>
+</head>
+<body class="bg-zinc-800"> 
+   <div id="container">
+   	  <header id="header">
+   	  	  <div id="h-container" class="flex flex-row items-center items-center content-around mx-[40px] my-[40px] absolute top-[25%] left-[35%]">
+   	  	  	   <button id="game" value='rock' class="rounded-[15%] bg-slate-300 w-[100px] h-[100px] mx-[20px] text-5xl transition-all duration-700 hover:text-6xl">✊</button>
+		   	  	<button id="game" value='paper' class="rounded-[15%] bg-slate-300 w-[100px] h-[100px] mx-[20px] text-5xl transition-all duration-700 hover:text-6xl">🤚</button>
+		   	  	<button id="game" value='scissors' class="rounded-[15%] bg-slate-300 w-[100px] h-[100px] mx-[20px] text-5xl transition-all duration-700 hover:text-6xl">✌</button>
+   	  	  </div>
+   	  </header>
+   	  <main id="main" class="absolute top-[48%] left-[42%] text-white text-2xl">
+   	  	  <!--The div below is experimental! -->
+   	  	  <div id="com" class="relative left-[66px] bottom-[20px] mb-[-15px]"><h5 id="scoreCom"></h5></div> 
+   	  	  <div id="score" class="relative left-[66px]"><h5 id="scoreNum"></h5></div> 
+   	  	  <div id="text-container" class="relative left-[83px]"><h5 id="comments"></h5></div>
+   	  	  <div id="hands" class="relative left-[30px]"><h5></h5></div>
+   	  </main>
+   	  <footer id="footer"> 
+   	  	  <button id="clear" class="rounded-[15%] bg-slate-300 w-[100px] h-[100px] absolute top-[49%] left-[48.5%] overflow-hidden"><div id="red-square" class="bg-red-800 text-red absolute top-[23%] left-[20%] w-[60px] h-[60px] rounded-[50%] border-4 border-solid border-black transition-colors duration-700 hover:bg-red-500 "></div></button> 
+   	  </footer> 
+   </div>
+</body>
+</html>
+
